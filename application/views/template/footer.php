@@ -5,7 +5,7 @@
  * Date: 27.09.2017
  * Time: 21:20
  */
-?>Привет How are u?
+?>
 <div class="hidden"></div>
 
 <!--[if lt IE 9]>
