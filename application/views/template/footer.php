@@ -21,10 +21,10 @@
         var ms=document.createElement("link");ms.rel="stylesheet";
         ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
     }
-    loadCSS("<?php echo base_url('assets/libs/animate/animate.css'); ?>"); //Load Libs CSS: Animate CSS
-    loadCSS("<?php echo base_url('assets/css/_header.css');?>");              //Header Styles (compress & paste to header after release)
-    loadCSS("<?php echo base_url('assets/css/_main.css');?>");                //User Styles: Main
-    loadCSS("<?php echo base_url('assets/css/_media.css');?>");               //User Styles: Media
+    loadCSS("<?php echo base_url('assets/libs/animate/animate.css'); ?>");      //Load Libs CSS: Animate CSS
+    loadCSS("<?php echo base_url('assets/css/_header.css');?>");                //Header Styles (compress & paste to header after release)
+    loadCSS("<?php echo base_url('assets/css/_main.css');?>");                  //User Styles: Main
+    loadCSS("<?php echo base_url('assets/css/_media.css');?>");                 //User Styles: Media
 </script>
 
 <!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
